@@ -1,0 +1,19 @@
+.practice-1 {
+  background: rgb(194, 63, 63);
+  padding: 16px;
+  text-align: center;
+  border-radius: 16px 0 16px 0;
+  width: fit-content;
+}
+.practice-1 {
+  color: aliceblue;
+}
+
+.practice-1 > strong {
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.practice-1 > strong:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
